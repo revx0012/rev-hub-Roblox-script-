@@ -9,3 +9,9 @@ yes, but it will not be soon.
 # will it be patched soon?
 
 i don't know.
+
+# how can i use your hub?
+
+just paste this and execute it: 
+
+```loadstring(game:HttpGet('https://raw.githubusercontent.com/revx0012/rev-hub-roblox/main/revhub.lua'))()```
