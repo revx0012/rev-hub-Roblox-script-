@@ -35,6 +35,12 @@ Section:NewButton("Chat bypasser v1", "chat bypass version 1",function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/vqmpjay/chatbypasser/main/chatbypasserv1'),true))()
 end) 
 
+
+Section:NewButton("Infinite zoom", "makes your camera zoom infinite",function()
+    game.Players.LocalPlayer.CameraMaxZoomDistance = math.huge
+end)
+
+
 -- Other Things Tab
 local Tab2 = Window:NewTab("Other Things")
 local SectionSpeed = Tab2:NewSection("Speed")
