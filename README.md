@@ -12,6 +12,6 @@ i don't know.
 
 # how can i use your hub?
 
-just paste this and execute it: 
+just paste this and execute it on your roblox:
 
 ```loadstring(game:HttpGet('https://raw.githubusercontent.com/revx0012/rev-hub-roblox/main/revhub.lua'))()```
