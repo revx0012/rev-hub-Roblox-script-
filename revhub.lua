@@ -55,8 +55,7 @@ end)
 local SectionInfo = Tab2:NewSection("Info")
 SectionInfo:NewButton("Info", "yeah, it will say who made the hub.", function()
   print('this script was made by ron144, i hope you enjoy the script!!')
- game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("/console", "All")
-end)
+ game:GetService("StarterGui"):SetCore("DevConsoleVisible", true)
 
 -- All other things section
 local SectionOthers = Tab2:NewSection("All other things")
