@@ -50,8 +50,3 @@ local SectionInfo = Tab2:NewSection("Info")
 SectionInfo:NewButton("Info", "yeah, it will say who made the hub but in chat.", function()
     game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("This hub was made by ron144", "All")
 end)
-
-local AllSection = Tab:Tab2("All")
-AllSection:NewSlider("Health", "Adjust your health", 100, 0, function(value)
-    game:GetService("Players").LocalPlayer.Character.Humanoid.Health = value
-end)
