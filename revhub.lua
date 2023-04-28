@@ -31,7 +31,7 @@ Section:NewButton("vfly GUI", "vehicle fly gui",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/4vu55wTN'))()
 end)
 
-Section:NewButton("Chat bypasser v1", "chat bypass version 1",function()
+Section:NewButton("chat bypasser v1", "chat bypass version 1",function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/vqmpjay/chatbypasser/main/chatbypasserv1'),true))()
 end) 
 
