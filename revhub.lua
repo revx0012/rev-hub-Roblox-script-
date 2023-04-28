@@ -59,4 +59,4 @@ SectionInfo:NewButton("Info", "yeah, it will say who made the hub.", function()
 end)
 
 -- All other things section
-local SectionOthers = Tab2:NewSection("All other things")
+-- local SectionOthers = Tab2:NewSection("All other things")
