@@ -53,23 +53,10 @@ end)
 -- section info
 
 local SectionInfo = Tab2:NewSection("Info")
-SectionInfo:NewButton("Info", "yeah, it will say who made the hub but in chat.", function()
-    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("This hub was made by ron144", "All")
+SectionInfo:NewButton("Info", "yeah, it will say who made the hub.", function()
+  print('this script was made by ron144, i hope you enjoy the script!!')
+ game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("/console", "All")
 end)
 
 -- All other things section
 local SectionOthers = Tab2:NewSection("All other things")
-
-SectionOthers:NewButton("Rejoin", "Rejoins the game", function()
-    local TeleportService = game:GetService("TeleportService")
-    local PlaceID = game.PlaceId
-    local Player = game:GetService("Players").LocalPlayer
-    local TeleportData = {
-        placeId = PlaceID,
-        serverJobId = "",
-        isTeleporting = true,
-        spawnName = "",
-        reason = "Rejoin button clicked"
-    }
-    TeleportService:TeleportAsync(PlaceID, Player, TeleportData)
-end)
