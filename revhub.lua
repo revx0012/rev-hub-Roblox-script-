@@ -50,9 +50,26 @@ SectionSpeed:NewSlider("Speed", "Boost Your Speed!", 300, 16, function(v)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
 end)
 
--- Tab info
+-- section info
 
 local SectionInfo = Tab2:NewSection("Info")
 SectionInfo:NewButton("Info", "yeah, it will say who made the hub but in chat.", function()
     game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("This hub was made by ron144", "All")
+end)
+
+-- All other things section
+local SectionOthers = Tab2:NewSection("All other things")
+
+SectionOthers:NewButton("Rejoin", "Rejoins the game", function()
+    local TeleportService = game:GetService("TeleportService")
+    local PlaceID = game.PlaceId
+    local Player = game:GetService("Players").LocalPlayer
+    local TeleportData = {
+        placeId = PlaceID,
+        serverJobId = "",
+        isTeleporting = true,
+        spawnName = "",
+        reason = "Rejoin button clicked"
+    }
+    TeleportService:TeleportAsync(PlaceID, Player, TeleportData)
 end)
