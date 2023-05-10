@@ -59,27 +59,4 @@ SectionInfo:NewButton("Info", "yeah, it will say who made the hub.", function()
 end)
 
 -- All other things section
-local SectionOthers = Tab2:NewSection("All other things")
-
-SectionOthers:NewSlider("Size", "Change Your Size", 400, 1, function(v)
-    local humanoid = game.Players.LocalPlayer.Character:FindFirstChild("Humanoid")
-    if humanoid then
-        humanoid:Remove()
-    end
-    humanoid = Instance.new("Humanoid")
-    humanoid.Name = "Humanoid"
-    humanoid.Parent = game.Players.LocalPlayer.Character
-    humanoid.Scale = Vector3.new(v, v, v)
-end)
-
-
-SectionOthers:NewSlider("Width", "Change Your Width", 400, 1, function(v)
-    local humanoid = game.Players.LocalPlayer.Character:FindFirstChild("Humanoid")
-    if humanoid then
-        humanoid:Remove()
-    end
-    humanoid = Instance.new("Humanoid")
-    humanoid.Name = "Humanoid"
-    humanoid.Parent = game.Players.LocalPlayer.Character
-    humanoid.BodyWidthScale = v / 100
-end)
+-- local SectionOthers = Tab2:NewSection("All other things")
