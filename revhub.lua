@@ -38,6 +38,15 @@ Section:NewButton("Infinite zoom", "makes your camera zoom infinite",function()
     game.Players.LocalPlayer.CameraMaxZoomDistance = math.huge
 end)
 
+Section:NewButton("ESP", "ESP.",function()
+loadstring(game:HttpGet('https://pastebin.com/hpMC6ULU'))()
+end)
+
+Section:NewButton("ESP", "ESP.",function()
+loadstring(game:HttpGet('https://pastebin.com/raw/KfkLE8Vp'))()
+end)
+
+
 
 -- Other Things Tab
 local Tab2 = Window:NewTab("Other Things")
