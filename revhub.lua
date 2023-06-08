@@ -42,11 +42,6 @@ Section:NewButton("ESP", "ESP.",function()
 loadstring(game:HttpGet('https://pastebin.com/raw/hpMC6ULU'))()
 end)
 
-Section:NewButton("X-ray", "x-raying xd",function()
-loadstring(game:HttpGet('https://pastebin.com/raw/KfkLE8Vp'))()
-end)
-
-
 
 -- Other Things Tab
 local Tab2 = Window:NewTab("Other Things")
