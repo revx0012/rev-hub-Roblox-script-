@@ -42,7 +42,7 @@ Section:NewButton("ESP", "ESP.",function()
 loadstring(game:HttpGet('https://pastebin.com/hpMC6ULU'))()
 end)
 
-Section:NewButton("X-RAY", "x-raying xd",function()
+Section:NewButton("X-ray", "x-raying xd",function()
 loadstring(game:HttpGet('https://pastebin.com/raw/KfkLE8Vp'))()
 end)
 
