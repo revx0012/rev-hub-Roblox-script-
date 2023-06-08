@@ -60,7 +60,7 @@ end)
 
 -- Arceus X Tab
 local Tab3 = Window:NewTab("Arceus X")
-local ArceusX Tab3:NewSection("Scripts of Arceus X")
+local ArceusX = Tab3:NewSection("Arceus X")
 
 
 ArceusX:NewButton("Arceus X Aimbot", "aim bot from arceus x",function()
