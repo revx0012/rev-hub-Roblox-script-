@@ -39,7 +39,7 @@ Section:NewButton("Infinite zoom", "makes your camera zoom infinite",function()
 end)
 
 Section:NewButton("ESP", "ESP.",function()
-loadstring(game:HttpGet('https://pastebin.com/hpMC6ULU'))()
+loadstring(game:HttpGet('https://pastebin.com/raw/hpMC6ULU'))()
 end)
 
 Section:NewButton("X-ray", "x-raying xd",function()
