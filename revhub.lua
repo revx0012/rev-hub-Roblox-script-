@@ -17,7 +17,7 @@ Section:NewButton("Fling GUI", "fling gui",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/r97d7dS0', true))()
 end)
 
-Section:NewButton("keyboard", "keyboard script on mobile",function()
+Section:NewButton("keyboard v1", "keyboard script on mobile",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))() 
 end)
 
@@ -38,6 +38,9 @@ Section:NewButton("Infinite zoom", "makes your camera zoom infinite",function()
     game.Players.LocalPlayer.CameraMaxZoomDistance = math.huge
 end)
 
+Section:NewButton("keyboard v2", "better version",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/A2fuE00J'))()
+end)
 
 
 -- Other Things Tab
