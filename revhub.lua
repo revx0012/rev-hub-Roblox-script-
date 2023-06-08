@@ -63,8 +63,8 @@ local Tab3 = Window:NewTab("Arceus X")
 local ArceusX = Tab3:NewSection("Arceus X")
 
 
-ArceusX:NewButton("Arceus X Aimbot", "aim bot from arceus x",function()
- loadstring(game:HttpGet('https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20X%20V3'))()
+ArceusX:NewButton("Arceus X Aimbot", "aim bot from arceus x only",function()
+ loadstring(game:HttpGet('https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20Aimbot.lua'))()
 end)
 
 ArceusX:NewButton("Arceus X V3", "arceus x",function()
