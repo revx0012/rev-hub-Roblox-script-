@@ -6,9 +6,7 @@ this is just a roblox script, can be used by an executer such as fluxus and othe
 
 yes, but it will not be soon.
 
-# will it be patched soon?
 
-i don't know.
 
 # how can i use your hub?
 
