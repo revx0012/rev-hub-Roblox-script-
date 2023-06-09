@@ -2,12 +2,6 @@
 
 this is just a roblox script, can be used by an executer such as fluxus and others
 
-# is this open source?
-
-yes, but it will not be soon.
-
-
-
 # how can i use your hub?
 
 just paste this and execute it on your roblox:
