@@ -73,3 +73,24 @@ end)
 ArceusX:NewButton("Arceus X V3", "arceus x",function()
  loadstring(game:HttpGet('https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20X%20V3'))()
 end)
+
+
+-- Prison Life
+local Tab4 = Window:NewTab("Prison Life")
+local prisonlife = Tab4:NewSection("Scripts")
+
+
+
+
+prisonlife:NewButton("Prison Life Gui", "hehehe",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/1RvgFtcx'))()
+end)
+
+prisonlife:NewButton("Prison Life Ruiner Gui", "hehehe",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/ucQSN3XF'))()
+end)
+
+prisonlife:NewButton("Prison Life Tiger Admin", "hehehe",function()
+    
+loadstring(game:HttpGet('https://raw.githubusercontent.com/H17S32/Tiger_Admin/main/Script'))()
+end)
