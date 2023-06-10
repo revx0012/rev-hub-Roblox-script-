@@ -17,6 +17,10 @@ Section:NewButton("keyboard v1", "keyboard script on mobile",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))() 
 end)
 
+Section:NewButton("keyboard v2", "better version",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/A2fuE00J'))()
+end)
+
 Section:NewButton("fly gui v3", "fly gui script",function()
     loadstring(game:HttpGet(('https://pastebin.com/raw/QGLvkvU7'),true))()
 end)
@@ -33,8 +37,8 @@ Section:NewButton("Infinite zoom", "makes your camera zoom infinite",function()
     game.Players.LocalPlayer.CameraMaxZoomDistance = math.huge
 end)
 
-Section:NewButton("keyboard v2", "better version",function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/A2fuE00J'))()
+Section:NewButton("Animations for R15/R6", "c'mon man it works!", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/vbJsvU0L'))()
 end)
 
 -- Other Things Tab
