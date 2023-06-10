@@ -83,7 +83,7 @@ prisonlife:NewButton("Prison Life Tiger Admin", "is it powerful?",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/H17S32/Tiger_Admin/main/Script'))()
 end)
 
-prisonlife:NewButton("PrisonBreaker V15", "lol!",function()
+prisonlife:NewButton("PrisonBreaker V1.5", "lol!",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/FAXBKd93'))()
 end)
 
