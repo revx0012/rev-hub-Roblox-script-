@@ -76,14 +76,6 @@ SectionSpeed:NewSlider("Speed", "Boost Your Speed!", 300, 16, function(v)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
 end)
 
--- section info
-
-local SectionInfo = Tab2:NewSection("Info")
-
-SectionInfo:NewButton("Info", "yeah, it will say who made the hub.", function()
-  print('this script was made by ron144, i hope you enjoy the script!!')
- game:GetService("StarterGui"):SetCore("DevConsoleVisible", true)
-end)
 
 -- Arceus X Tab
 local Tab3 = Window:NewTab("Arceus X")
