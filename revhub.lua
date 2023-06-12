@@ -8,14 +8,6 @@ Text = "loading...",
 
 wait()
 
-game:GetService("StarterGui"):SetCore("SendNotification",{ 	
-
-Title = "loaded!",  	
-
-Text = "Have fun!",
-
-})
-
 
 game:GetService("StarterGui"):SetCore("SendNotification",{ 	
 
