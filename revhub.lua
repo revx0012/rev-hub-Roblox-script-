@@ -1,3 +1,30 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{ 	
+
+Title = "wait...",  	
+
+Text = "loading...",
+
+})
+
+wait()
+
+game:GetService("StarterGui"):SetCore("SendNotification",{ 	
+
+Title = "loaded!",  	
+
+Text = "Have fun!",
+
+})
+
+
+game:GetService("StarterGui"):SetCore("SendNotification",{ 	
+
+Title = "Loaded Rev Hub!",  	
+
+Text = "Have fun! Made by Ron144.",
+
+})
+
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 
 -- The hub configuration
