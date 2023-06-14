@@ -1,4 +1,3 @@
-local InfiniteJumpEnabled = false
 
 game:GetService("StarterGui"):SetCore("SendNotification",{ 	
 
