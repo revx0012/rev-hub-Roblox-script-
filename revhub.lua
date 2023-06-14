@@ -94,6 +94,7 @@ Text = "Okay, that's your choice.",
 
 })
         local InfiniteJumpEnabled = false
+game:GetService("UserInputService").JumpRequest:disconnect()
     end
 end)
 
