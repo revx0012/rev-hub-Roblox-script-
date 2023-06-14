@@ -62,11 +62,26 @@ end)
 
 -- Other Things Tab
 local Tab2 = Window:NewTab("Other Things")
-local SectionSpeed = Tab2:NewSection("Speed")
+local SectionO = Tab2:NewSection("Others")
 
-SectionSpeed:NewSlider("Speed", "Boost Your Speed!", 300, 16, function(v)
-    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
+SectionO:NewSlider("Speed", "Boost Your Speed!", 300, 16, function(v)
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
 end)
+
+SectionO:NewToggle("Inf Jump", "who doesn't wanna have infinite jump?", function(state)
+    if state then        
+local InfiniteJumpEnabled = true
+game:GetService("UserInputService").JumpRequest:connect(function()
+	if InfiniteJumpEnabled then
+		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+	end
+end)
+    else
+        local InfiniteJumpEnabled = false
+    end
+end)
+
+
 
 
 -- Arceus X Tab
