@@ -69,7 +69,16 @@ game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
 end)
 
 SectionO:NewToggle("Inf Jump", "who doesn't wanna have infinite jump?", function(state)
-    if state then        
+    if state then
+
+game:GetService("StarterGui"):SetCore("SendNotification",{ 	
+
+Title = "Loaded Infinite Jump!",  	
+
+Text = "Have fun! Made by Ron144.",
+
+})  
+      
 local InfiniteJumpEnabled = true
 game:GetService("UserInputService").JumpRequest:connect(function()
 	if InfiniteJumpEnabled then
@@ -77,6 +86,13 @@ game:GetService("UserInputService").JumpRequest:connect(function()
 	end
 end)
     else
+game:GetService("StarterGui"):SetCore("SendNotification",{ 	
+
+Title = "Infinite Jump off!",  	
+
+Text = "Okay, that's your choice.",
+
+})
         local InfiniteJumpEnabled = false
     end
 end)
