@@ -1,3 +1,5 @@
+local InfiniteJumpEnabled = false
+
 game:GetService("StarterGui"):SetCore("SendNotification",{ 	
 
 Title = "wait...",  	
@@ -70,31 +72,25 @@ end)
 
 SectionO:NewToggle("Inf Jump", "who doesn't wanna have infinite jump?", function(state)
     if state then
-
-game:GetService("StarterGui"):SetCore("SendNotification",{ 	
-
-Title = "Loaded Infinite Jump!",  	
-
-Text = "Have fun! Made by Ron144.",
-
-})  
-      
-local InfiniteJumpEnabled = true
-game:GetService("UserInputService").JumpRequest:connect(function()
-	if InfiniteJumpEnabled then
-		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
-	end
-end)
+        game:GetService("StarterGui"):SetCore("SendNotification", { 
+            Title = "Loaded Infinite Jump!",  	
+            Text = "Have fun! Made by Ron144.",
+        })
+        
+        InfiniteJumpEnabled = true
+        game:GetService("UserInputService").JumpRequest:connect(function()
+            if InfiniteJumpEnabled then
+                game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):ChangeState("Jumping")
+            end
+        })
     else
-game:GetService("StarterGui"):SetCore("SendNotification",{ 	
-
-Title = "Infinite Jump off!",  	
-
-Text = "Okay, that's your choice.",
-
-})
-        local InfiniteJumpEnabled = false
-game:GetService("UserInputService").JumpRequest:disconnect()
+        game:GetService("StarterGui"):SetCore("SendNotification", { 
+            Title = "Infinite Jump off!",  	
+            Text = "Okay, that's your choice.",
+        })
+        
+        InfiniteJumpEnabled = false
+        game:GetService("UserInputService").JumpRequest:disconnect()
     end
 end)
 
