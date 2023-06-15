@@ -148,3 +148,11 @@ MT.__namecall = newcclosure(function(self, ...)
 end)
 setreadonly(MT, true)
 end)
+
+-- SwordBurst 2
+local Tab5 = Window:NewTab("SwordBurst 2")
+local swordburst = Tab5:NewSection("Scripts")
+
+swordburst:NewButton("Sword Burst Gui", "hehehe",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/noobscripter38493/Swordburst-2/main/script.lua'))()
+end)
