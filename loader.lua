@@ -5,10 +5,7 @@ local showButton
 
 -- Function to create the GUI
 local function createGUI()
-    -- Create the GUI if it doesn't exist
-    if gui then
-        gui:Destroy()
-    end
+    
     
     gui = Instance.new("ScreenGui")
     gui.Name = "Rev Hub Loader"
