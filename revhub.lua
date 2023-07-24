@@ -49,9 +49,9 @@ Section:NewButton("vfly GUI", "vehicle fly gui",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/4vu55wTN'))()
 end)
 
-Section:NewButton("chat bypasser v1", "chat bypass version 1",function()
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/vqmpjay/chatbypasser/main/chatbypasserv1'),true))()
-end) 
+Section:NewButton("chat bypasser", "chat bypass",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SXNTII/VadriftsHost/main/V3.txt"))()
+end)
 
 Section:NewButton("Infinite zoom", "makes your camera zoom infinite",function()
     game.Players.LocalPlayer.CameraMaxZoomDistance = math.huge
