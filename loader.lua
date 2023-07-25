@@ -5,11 +5,30 @@ local showButton
 
 -- Function to create the GUI
 local function createGUI()
+    -- Function to check if the GUI already exists
+    local function checkExistingGUI()
+        gui = game.CoreGui:FindFirstChild("Rev Hub Loader")
+        if gui then
+            -- The GUI already exists, show a notification
+            local existingGuiNotification = Instance.new("Message")
+            existingGuiNotification.Text = "GUI is already created. Please rejoin to see the GUI."
+            existingGuiNotification.Parent = game.Players.LocalPlayer.PlayerGui
+            wait(3)
+            existingGuiNotification:Destroy()
+            return true
+        end
+        return false
+    end
     
-    
+    -- Check if the GUI already exists
+    if checkExistingGUI() then
+        return
+    end
+
+    -- Create the main GUI frame
     gui = Instance.new("ScreenGui")
     gui.Name = "Rev Hub Loader"
-     gui.Parent = game:GetService("CoreGui"):FindFirstChild("Gethui") or Instance.new("Folder", game:GetService("CoreGui")):WaitForChild("Gethui")
+    gui.Parent = game:GetService("CoreGui"):FindFirstChild("Gethui") or Instance.new("Folder", game:GetService("CoreGui")):WaitForChild("Gethui")
     
     -- Create the window frame
     window = Instance.new("Frame")
@@ -92,12 +111,6 @@ local function createGUI()
     minimizeButton.MouseButton1Click:Connect(onMinimizeButtonClicked)
     showButton.MouseButton1Click:Connect(onShowButtonClicked)
 end
-
--- Connect the character added event
-player.CharacterAdded:Connect(function(character)
-    -- Create the GUI when the character is added
-    createGUI()
-end)
 
 -- Create the GUI initially
 createGUI()
