@@ -28,8 +28,8 @@ local function createGUI()
     -- Create the main GUI frame
     gui = Instance.new("ScreenGui")
     gui.Name = "Rev Hub Loader"
-    gui.Parent = game:GetService("CoreGui"):FindFirstChild("Gethui") or Instance.new("Folder", game:GetService("CoreGui")):WaitForChild("Gethui")
-    
+    gui.Parent = game:GetService("CoreGui")
+
     -- Create the window frame
     window = Instance.new("Frame")
     window.Name = "Window"
