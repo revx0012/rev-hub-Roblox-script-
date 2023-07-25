@@ -11,7 +11,7 @@ local function createGUI()
         if gui then
             -- The GUI already exists, show a notification
             local existingGuiNotification = Instance.new("Message")
-            existingGuiNotification.Text = "GUI is already created. Please rejoin to see the GUI."
+            existingGuiNotification.Text = "GUI is already created. Please rejoin and try again if you don't see it."
             existingGuiNotification.Parent = game.Players.LocalPlayer.PlayerGui
             wait(3)
             existingGuiNotification:Destroy()
