@@ -57,6 +57,11 @@ Section:NewButton("Infinite zoom", "makes your camera zoom infinite",function()
     game.Players.LocalPlayer.CameraMaxZoomDistance = math.huge
 end)
 
+
+Section:NewButton("Ride Cart GUI", "yo chat is this real?",function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/xYMupSxR'))()
+end)
+
 Section:NewButton("Animations for R15/R6", "c'mon man it works!", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/vbJsvU0L'))()
 end)
