@@ -1,3 +1,4 @@
+-- imagine skidding kid
 
 game:GetService("StarterGui"):SetCore("SendNotification",{ 	
 
