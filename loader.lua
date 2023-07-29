@@ -1,3 +1,6 @@
+-- This thing doesn't work anyway, you can skid it i guess
+
+
 local player = game.Players.LocalPlayer
 local gui
 local window
