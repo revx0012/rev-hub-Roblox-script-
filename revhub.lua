@@ -25,7 +25,7 @@ local Window = Library.CreateLib("Rev Hub", "GrapeTheme")
 -- Scripts Tab
 local Tab = Window:NewTab("Scripts")
 local Section = Tab:NewSection("Script")
-Section:NewButton("Infinite yield", "infinite yield fe", function()
+Section:NewButton("Infinite Yield", "infinite yield fe", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 end)
 
@@ -33,27 +33,27 @@ Section:NewButton("Fling GUI", "fling gui",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/r97d7dS0', true))()
 end)
 
-Section:NewButton("keyboard v1", "keyboard script on mobile",function()
+Section:NewButton("Keyboard v1", "keyboard script on mobile",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))() 
 end)
 
-Section:NewButton("keyboard v2", "better version",function()
+Section:NewButton("Keyboard v2", "better version",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/A2fuE00J'))()
 end)
 
-Section:NewButton("fly gui v3", "fly gui script",function()
+Section:NewButton("Fly gui v3", "fly gui script",function()
     loadstring(game:HttpGet(('https://pastebin.com/raw/QGLvkvU7'),true))()
 end)
 
-Section:NewButton("vfly GUI", "vehicle fly gui",function()
+Section:NewButton("VFly GUI", "vehicle fly gui",function()
     loadstring(game:HttpGet('https://pastebin.com/raw/4vu55wTN'))()
 end)
 
-Section:NewButton("chat bypasser", "chat bypass",function()
+Section:NewButton("Chat Bypasser", "chat bypass",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/SXNTII/VadriftsHost/main/V3.txt"))()
 end)
 
-Section:NewButton("Infinite zoom", "makes your camera zoom infinite",function()
+Section:NewButton("Infinite Zoom", "makes your camera zoom infinite",function()
     game.Players.LocalPlayer.CameraMaxZoomDistance = math.huge
 end)
 
@@ -64,6 +64,14 @@ end)
 
 Section:NewButton("Animations for R15/R6", "c'mon man it works!", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/vbJsvU0L'))()
+end)
+
+Section:NewButton("Anti Chat Logger", "yo chat is this real?",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AnthonyIsntHere/anthonysrepository/main/scripts/AntiChatLogger.lua"))()
+end)
+
+Section:NewButton("Sword Burst Gui", "hehehe",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/noobscripter38493/Swordburst-2/main/script.lua'))()
 end)
 
 Section:NewButton("Backdoor.exe", "aka server-side executor",function()
@@ -158,10 +166,3 @@ end)
 setreadonly(MT, true)
 end)
 
--- SwordBurst 2
-local Tab5 = Window:NewTab("SwordBurst 2")
-local swordburst = Tab5:NewSection("Scripts")
-
-swordburst:NewButton("Sword Burst Gui", "hehehe",function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/noobscripter38493/Swordburst-2/main/script.lua'))()
-end)
