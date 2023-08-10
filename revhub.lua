@@ -167,3 +167,31 @@ end)
 setreadonly(MT, true)
 end)
 
+
+-- Natural Disaster
+
+local naturally = Window:NewTab("Natural Disaster")
+local natural = natural:NewSection("Scripts (they may not work)")
+
+natural:NewButton("Script 1", "...",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringUjHI6RQpz2o8", true))()
+
+end)
+
+
+
+natural:NewButton("Script 2", "...",function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/SmartModBoy/VortexAblity/main/SV'))()
+
+end)
+
+natural:NewButton("Script 3", "...",function()
+
+
+getgenv().mainKey = "nil"
+ 
+local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://api.eclipsehub.xyz/auth"c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
+
+end)
