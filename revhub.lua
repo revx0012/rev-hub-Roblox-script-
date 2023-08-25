@@ -171,7 +171,7 @@ end)
 -- Natural Disaster
 
 local naturally = Window:NewTab("Natural Disaster")
-local natural = natural:NewSection("Scripts (they may not work)")
+local natural = naturally:NewSection("Scripts (they may not work)")
 
 natural:NewButton("Script 1", "...",function()
 
