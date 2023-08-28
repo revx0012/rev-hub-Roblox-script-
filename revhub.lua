@@ -213,23 +213,9 @@ game:GetService("ReplicatedStorage").SayMessageRequest:FireServer("ПiGGЕR Рus
 
 end)
 
-bypass:NewButton("GО АWАY АSSНОLЕ", "...",function()
-
-
-game:GetService("ReplicatedStorage").SayMessageRequest:FireServer("GО АWАY АSSНОLЕ", "All")
-
-
-bypass:NewButton("i want you to КILL YОURSЕLF NОW!", "...",function()
-
-game:GetService("ReplicatedStorage").SayMessageRequest:FireServer("i want you to КILL YОURSЕLF NОW!", "All")
-
-
-end)
-
-
 bypass:NewButton("blacked.com", "...",function()
 
-game:GetService("ReplicatedStorage").SayMessageRequest:FireServer("blасkеd.соm", "All")
+game:GetService("ReplicatedStorage").SayMessageRequest:FireServer("blacked . com", "All")
 
 end)
 
@@ -240,5 +226,50 @@ bypassword:NewButton("ass", "...",function()
 game:GetService("ReplicatedStorage").SayMessageRequest:FireServer("аss", "All")
 
 end)
+
+
+bypassword:NewButton("hard r", "...",function()
+
+game:GetService("ReplicatedStorage").SayMessageRequest:FireServer("ПiGGЕR", "All")
+
+end)
+
+bypassword:NewButton("Pussy", "...",function()
+
+game:GetService("ReplicatedStorage").SayMessageRequest:FireServer("Рussу", "All")
+
+end)
+
+bypassword:NewButton("PORN", "...",function()
+
+game:GetService("ReplicatedStorage").SayMessageRequest:FireServer("РОRN", "All")
+
+end)
+
+bypassword:NewButton("BITCH", "...",function()
+
+game:GetService("ReplicatedStorage").SayMessageRequest:FireServer("BIТСH", "All")
+
+end)
+
+
+bypassword:NewButton("BOOBS", "...",function()
+
+game:GetService("ReplicatedStorage").SayMessageRequest:FireServer("ВООВS", "All")
+
+end)
+
+bypassword:NewButton("ishowboob", "...",function()
+
+game:GetService("ReplicatedStorage").SayMessageRequest:FireServer("@ishowboob", "All")
+
+end)
+
+bypassword:NewButton("ishowbigboob", "...",function()
+
+game:GetService("ReplicatedStorage").SayMessageRequest:FireServer("@ishowbigboob", "All")
+
+end)
+
 
 local soon = chatbypass:NewSection("More coming soon!")
