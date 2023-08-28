@@ -241,4 +241,4 @@ game:GetService("ReplicatedStorage").SayMessageRequest:FireServer("аss", "All")
 
 end)
 
-local bypassword = chatbypass:NewSection("More coming soon!")
+local soon = chatbypass:NewSection("More coming soon!")
