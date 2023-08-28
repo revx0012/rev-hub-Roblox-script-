@@ -231,7 +231,7 @@ bypass:NewButton("blacked.com", "...",function()
 
 game:GetService("ReplicatedStorage").SayMessageRequest:FireServer("blасkеd.соm", "All")
 
-end
+end)
 
 local bypassword = chatbypass:NewSection("Bypass words")
 
