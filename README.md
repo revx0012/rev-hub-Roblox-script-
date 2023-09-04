@@ -8,3 +8,5 @@ loadstring(game:HttpGet('https://robloxscripts123.000webhostapp.com/revhub.lua')
 ```
 
 For now the loader.lua doesn't work but it hasn't been moved and I can't fix it.
+
+That is why this repo is archived.
